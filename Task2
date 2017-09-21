@@ -1,0 +1,12 @@
+print('Введите числа')
+a = int(input())
+b = int(input())
+print('Введите знак(+ или -)')
+m = input()
+if (m == '+'):
+    r = a + b
+    print(r)
+
+elif (m== '-'):
+    r = a - b
+    print(r)
