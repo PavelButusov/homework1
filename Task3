@@ -1,0 +1,12 @@
+print('Введите верхнюю границу больше 0')
+a = int(input())
+list = []
+for n in range(2, a+1):
+    for b in list:
+        if n % b == 0:
+            break
+    else:
+       list.append(n)
+print('Простые числа:')
+list.insert(0, 1) #костыль:)
+print (list)
