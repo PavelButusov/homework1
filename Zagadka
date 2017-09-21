@@ -1,0 +1,24 @@
+print('Пройдите тест, вводя ответы построчно')
+a0 = "Команда вывода текста:"
+a1 = "Онлайн-компилятор кода для Python:"
+a2 = "Значение операции % с числами:"
+a3 = "Тип действительных чисел:"
+a4 = "True = 1?"
+a5 = "Задать пустой список:"
+a6 = "Актуальная версия Python:"
+a7 = "Команда ввода данных:"
+a8 = "Какой тип данных, если учавствуют True (истина) или False (ложь):"
+a9 = "Какое ключевое слово используется для объявления функции?"
+list = [a0,a1,a2,a3,a4,a5,a6,a7,a8,a9]
+answerlist = ["print","pythontutor.ru","остаток от деления","float","да","[]","3.6.2","input","bool","def"]
+number = 0
+right_number = 0
+for n in list:
+    print(n)
+    answer = input()
+    if (answer == answerlist[number]):
+        print("Верно")
+        right_number = right_number + 1
+    else: print("Не верно")
+    number = number + 1
+print("Верных ответов: ", right_number)
