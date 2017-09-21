@@ -1,0 +1,9 @@
+print('Введите два числа для поиска кратного 5')
+a = int(input())
+b = int(input())
+list = []
+for n in range(a, b+1):
+    if n % 5 == 0:
+        list.append(n)
+print('Кратные 5:')
+print (list)
